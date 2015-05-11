@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+        <link rel='stylesheet' href='style/style.css'>
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='lib/circle.js'></script>
+        <script src='lib/lettering.min.js'></script>
+        <script src='js/cloud.js'></script>
+        <script src='js/eventlistener.js'></script>
+        <script src='js/animator.js'></script>
+        <script src='js/initialize.js'></script>
+        <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    </head>
+
+	<body>
+		<div class='container'>
+			<div class='cloud-container'>
+				<div class='cloud'></div>
+				<div class='droppings'></div>
+			</div>
+            <div class='box drops'>
+                <div class='buttons'>
+                    <h2 class='heading'>rain?</h2>
+                    <button class='gifts-btn'>gifts</button>
+                    <button class='cake-btn'>cupcakes</button>
+                    <button class='nat-btn'>nat wee</button>
+                </div>
+            </div>
+            <div class='greeting'>
+                <h1 id="greeting-1">Birthday</h1>
+                <h1 id="greeting-2">Cloud</h1>
+            </div>
+            <div class='box music'>
+                <div class='buttons'>
+                    <h2 class='heading'>music?</h2>
+                    <button class='minion-btn'>minions</button>
+                    <button class='chipmunk-btn'>chipmunks</button>
+                    <button class='hamster-btn'>hamsters</button>
+                </div>
+            </div>
+            <br style='clear: left'/>
+        </div>
+		
+		<div class='cupcake-og' style='display: none'>
+			<div class='tip'></div>
+            <div class='candle'></div>
+            <div class='top'>
+                <div class='sprinkles'></div>
+                <div class='sprinkles'></div>
+                <div class='sprinkles'></div>
+                <div class='sprinkles'></div>
+                <div class='sprinkles'></div>
+                <div class='sprinkles'></div>
+                <div class='sprinkles'></div>
+            </div>
+            <div class='left holder'></div>
+            <div class='bottom holder'></div>
+            <div class='right holder'></div>
+        </div>
+
+		<div class='present-og' style='display: none'>
+			<div class='bow left'></div>
+       		<div class='bow right'></div>
+    	</div>
+
+    	<audio id="hamster" src="music/hamster.mp3" ></audio>
+    	<audio id="minion" src="music/minion.m4a" ></audio>
+    	<audio id="chipmunk" src="music/chipmunk.mp3" ></audio>
+	</body>
+</html>
